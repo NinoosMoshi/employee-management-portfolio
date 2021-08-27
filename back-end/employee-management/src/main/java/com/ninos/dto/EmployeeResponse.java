@@ -12,11 +12,12 @@ public class EmployeeResponse {
     private String jobTitle;
     private String phone;
     private String gender;
-    private String imageUrl;
+
 
     private String employeeCode;
     private String fileName;
     private String contentType;
+    private String imageUrl;
 
 
     // constructor without (employeeCode,fileName,contentType)
@@ -31,7 +32,7 @@ public class EmployeeResponse {
 
 
     // constructor without (fileName,contentType)
-    public EmployeeResponse(String employeeName, String email, String jobTitle, String phone, String gender, String imageUrl, String employeeCode) {
+    public EmployeeResponse(String employeeName, String email, String jobTitle, String phone, String gender, String employeeCode, String imageUrl) {
         this.employeeName = employeeName;
         this.email = email;
         this.jobTitle = jobTitle;

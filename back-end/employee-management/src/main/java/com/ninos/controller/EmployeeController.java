@@ -37,8 +37,8 @@ public class EmployeeController {
     }
 
 
-    @PostMapping("/single/uploadDB")
-    public ResponseEntity<EmployeeResponse> singleFileUpload(@RequestParam("employeeName") String employeeName,
+    @PostMapping("/employee/add")
+    public ResponseEntity<EmployeeResponse> addEmployee(@RequestParam("employeeName") String employeeName,
                                                              @RequestParam("email") String email,
                                                              @RequestParam("jobTitle") String jobTitle,
                                                              @RequestParam("phone") String phone,
